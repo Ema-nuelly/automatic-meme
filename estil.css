@@ -51,8 +51,15 @@ header .icons{
     transform: scaleY(1.2);
     letter-spacing: -1px;
     font-weight:900;
+    z-index: 1;
 }
-
+#bigtexto img{
+    z-index: 2;
+    position: absolute;
+    left: 400px;
+    top: 45px;
+}
+    
 .orange{color:#FF7120}
 
 #pesqui{
@@ -69,11 +76,11 @@ header .icons{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 40em;
     width: 70%;
     height: 50em;
 }
 .esquerda p{font-size: 25px;width: 90%;}
+
 .busca input{
     padding: 20px 80px 20px 10px;
     border-radius: 10px;
@@ -86,9 +93,24 @@ header .icons{
     font-size: 20px;
     border-radius: 10px;
     border-width: .5px;
+    background-color: #023047;
+    color: white;
 }
 .busca{
     display: flex;
     gap: 10px;
     text-align: center;
+}
+
+.direita{
+    border: 5px solid rgb(12, 61, 255);
+    width: 70%;
+    z-index: 1;
+}
+
+.direita .smallerone{
+    z-index: 2;
+    position: absolute;
+    left: 400px;
+    top: 45px;
 }
