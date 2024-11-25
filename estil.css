@@ -52,12 +52,14 @@ header .icons{
     letter-spacing: -1px;
     font-weight:900;
     z-index: 1;
+    border: 5px solid rgb(49, 69, 10);
 }
 #bigtexto img{
     z-index: 2;
     position: absolute;
     left: 400px;
     top: 45px;
+    border: 5px solid rgb(255, 206, 12);
 }
     
 .orange{color:#FF7120}
@@ -75,14 +77,14 @@ header .icons{
 .esquerda{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 70%;
-    height: 50em;
+    height: 30em;
 }
-.esquerda p{font-size: 25px;width: 90%;}
+.esquerda p{font-size: 22px;width: 90%;}
 
 .busca input{
-    padding: 20px 80px 20px 10px;
+    padding: 20px 110px 20px 10px;
     border-radius: 10px;
     font-size: 20px;
     border-width: .5px;
@@ -98,7 +100,7 @@ header .icons{
 }
 .busca{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     text-align: center;
 }
 
@@ -106,11 +108,16 @@ header .icons{
     border: 5px solid rgb(12, 61, 255);
     width: 70%;
     z-index: 1;
+    display: flex;
 }
-
-.direita .smallerone{
+.biggerone{
+    border: 5px solid rgb(205, 82, 158);
+    display: flex;
+    width: 100%;
+    z-index: 1;
+}
+.smallerone{
+    border: 5px solid rgb(12, 255, 247);
     z-index: 2;
     position: absolute;
-    left: 400px;
-    top: 45px;
 }
