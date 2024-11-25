@@ -52,6 +52,7 @@ header .icons{
     letter-spacing: -1px;
     font-weight:900;
 }
+
 .orange{color:#FF7120}
 
 #pesqui{
@@ -70,5 +71,24 @@ header .icons{
     justify-content: space-evenly;
     height: 40em;
     width: 70%;
+    height: 50em;
 }
 .esquerda p{font-size: 25px;width: 90%;}
+.busca input{
+    padding: 20px 80px 20px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-width: .5px;
+    border-color: rgb(160, 160, 160);
+}
+.busca button{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: .5px;
+}
+.busca{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
