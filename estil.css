@@ -120,4 +120,6 @@ header .icons{
     border: 5px solid rgb(12, 255, 247);
     z-index: 2;
     position: absolute;
+    display: flex;
+    align-content: end;
 }
