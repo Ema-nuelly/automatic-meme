@@ -1,7 +1,6 @@
 body{
     font-family: sans-serif;
     color: #023047;
-    border: 5px solid rgb(255, 12, 12);
     min-height: 720px;
     min-width: 1224px;
     display: flex;
@@ -10,7 +9,6 @@ body{
 }
 
 header{
-    border: 5px solid rgb(128, 90, 90);
     display: flex;
     justify-content: start;
     align-items: center;
@@ -27,7 +25,6 @@ nav{
     display: flex; 
     justify-content: center; 
     width: 100%; 
-    border: 5px solid rgb(33, 121, 68);
 }
 nav ul{list-style-type: none; display: flex;}
 nav ul li{margin:0 10px; font-weight: bold;}
@@ -37,11 +34,9 @@ header .icons{
     justify-content: space-evenly;
     align-items: center;
     width: 20%;
-    border: 5px solid rgb(198, 12, 255);
     margin-right: 5%;
 }
 #logo{
-    border: 5px solid rgb(255, 219, 12);
     display: flex;
     margin: auto 5%;
 }
@@ -52,14 +47,12 @@ header .icons{
     letter-spacing: -1px;
     font-weight:900;
     z-index: 1;
-    border: 5px solid rgb(49, 69, 10);
 }
 #bigtexto img{
     z-index: 2;
     position: absolute;
     left: 400px;
     top: 45px;
-    border: 5px solid rgb(255, 206, 12);
 }
     
 .orange{color:#FF7120}
@@ -88,7 +81,6 @@ header .icons{
     border-radius: 10px;
     font-size: 20px;
     border-width: .5px;
-    border-color: rgb(160, 160, 160);
 }
 .busca button{
     padding: 20px 40px;
@@ -105,21 +97,20 @@ header .icons{
 }
 
 .direita{
-    border: 5px solid rgb(12, 61, 255);
     width: 70%;
     z-index: 1;
     display: flex;
+    position: relative;
 }
 .biggerone{
-    border: 5px solid rgb(205, 82, 158);
     display: flex;
     width: 100%;
     z-index: 1;
 }
 .smallerone{
-    border: 5px solid rgb(12, 255, 247);
     z-index: 2;
     position: absolute;
     display: flex;
-    align-content: end;
+    right: 12%;
+    bottom: -25%;
 }
